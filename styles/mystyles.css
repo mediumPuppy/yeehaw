@@ -1,0 +1,62 @@
+/*background img in the header*/
+.jpg{
+    background-image: url('../images/security.jpg') !important;
+}
+/*different color for "back to top" button so it looks nicer when hovering*/
+.bt-img{
+    background-color: darkslategray;
+    border-top: black;
+    border-bottom: black;
+    border-right: black;
+    border-left: black;
+}
+/*background color of home and about pages*/
+.bg-img {
+    background-color: #f8f0e3;
+}
+/*centering text*/
+.center-it {
+    text-align: center;
+}
+/*different font for the resume*/
+.resumet {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* spacing fixed for all p elements especially for lists*/
+p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+/*centering images on home page*/
+.centers {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+/* new font details for footer on index and about me pages*/
+.ct {
+    font-weight: lighter;
+    color: grey;
+    font-size: 18px;
+}
+/* a minor edit for better spacing in parts of the resume*/
+.margin-fix {
+    margin-bottom: 1px;
+    padding-bottom: 0px;
+}
+/*new font for both index and about pages including footer and header font family (but not for the resume part of about me page)*/
+.text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*different font weight for my big name on the center of the index and about pages*/ 
+.smaller-text {
+    font-weight: lighter;
+}
+/*overwriting link color and hover color in order to add on page anchors that you can see*/
+a {
+    color: #D6D5CB;
+}
+a:hover{
+    color: grey;
+}
